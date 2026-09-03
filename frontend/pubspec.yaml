@@ -1,0 +1,61 @@
+name: sina_studio
+description: "Sina Studio AI - AI-powered platform for creating games and generating content"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Material Design
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  
+  # HTTP Client
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Storage
+  shared_preferences: ^2.2.0
+  
+  # Image and Media
+  image_picker: ^1.0.0
+  video_player: ^2.7.0
+  just_audio: ^0.9.30
+  
+  # JSON Serialization
+  json_serializable: ^6.7.0
+  
+  # Utilities
+  intl: ^0.19.0
+  connectivity_plus: ^5.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+  
+  fonts:
+    - family: VazirmatnFD
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Vazirmatn-Black.ttf
+          weight: 900
